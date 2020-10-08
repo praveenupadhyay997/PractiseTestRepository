@@ -12,8 +12,8 @@ namespace TestProjectPractise
         {
             //Arrange
             TestClass testClass = new TestClass();
-            int expected = 25;
-            int numOne = 10;
+            int expected = 35;
+            int numOne = 20;
             int numTwo = 15;
             //Act
             var actual = testClass.addNumber(numOne, numTwo);
